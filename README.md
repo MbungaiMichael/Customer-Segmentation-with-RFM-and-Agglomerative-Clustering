@@ -38,7 +38,7 @@ From this data, the following metrics were computed:
 ### RFM Scoring
 
 - Each metric (R, F, M) was binned into quartiles using `pd.qcut`.
-- Scores were assigned (1–4 scale) with higher scores indicating better customer behavior.
+- Scores were assigned (1–5 scale) with higher scores indicating better customer behavior.
 - A **combined score** (`RFM_Score_Sum`) was created to rank overall customer value.
 
 ### Visualizations
